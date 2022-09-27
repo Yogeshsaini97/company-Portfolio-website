@@ -1,0 +1,52 @@
+.navcomponent
+{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 50px;
+    z-index:10;
+}
+.navcomponent div:nth-child(1)
+{
+  
+    color: black;
+    font-weight: 900;
+    z-index: 1; 
+
+}
+
+.navcomponent>:nth-child(1)
+{
+    font-size: 31px;
+    font-weight:bold
+}
+.navcomponent>:nth-child(2) ul 
+{
+   display: flex;
+   font-weight:500;
+   
+  
+   
+}
+
+.navcomponent>:nth-child(2) ul li
+{
+    list-style: none;
+    padding-right: 41px;
+    font-size: 21px;
+    
+
+}
+
+.navcomponent>:nth-child(2) ul li:hover
+{
+    /* color:var(--orange);
+    text-shadow: 2px 2px var(--orange); */
+    
+    color:var(--orange);
+    text-shadow:1px 1px 10px var(--orange) , 1px 1px 10px var(--orange);
+    cursor:pointer;
+}

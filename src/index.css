@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif,'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 0vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+:root {
+  --orange:#FCA61F;
+  --yellow:#F5C32C;
+  --black:#242D49;
+  --gray:#788097;
+  --purpleblur:rgb(238 210 255);
+  --bluecard:#DDF8FE;
+  --orangecard:rgba(252,166,31,0.45);
+  --blueblur:#C1F5FF;
+}
+
+.mybtn
+{
+color:white;
+background-color: var(--orange);
+width:120px;
+border-radius: 57px;
+font-size: 17px;
+border:none;
+height: 126%;
+box-shadow: -1px 1px 18px 0px var(--orange);
+}
+
+.mybtn:hover
+{
+  background-color: var(--yellow);
+  box-shadow: -1px 1px 38px 0px var(--yellow);
+
+  
+}
+
+.blur
+{
+  background: #edd0ff;
+  
+ 
+  filter:blur(25px);
+  height:336px;
+  width:409px;
+  z-index: -9;
+  
+  
+
+
+}
+
+
+.lorem
+{
+    display: block;
+    width: 51%;
+}
+
+.Myawesome
+{
+    position: relative;
+    top: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer
+{
+  z-index: 5;
+    position: absolute;
+    width: 100%;
+    top: 6000px;
+    height:200px;
+}
+
+.footercontent
+{
+    color: white;
+    position: relative;
+    top: -298px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+.footer img{
+    width: 100%;
+}

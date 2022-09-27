@@ -1,0 +1,59 @@
+.Myawesome2
+{
+    height: 100vh;
+}
+.outerbigcircle
+{
+    height: 439px;
+    width: 470px;
+    box-shadow:-87px 47px 185px -89px #afa3a3;
+    border-radius: 100%;
+    position: relative;
+    left: -110px;
+    background-color: white;
+}
+
+.outerbigcircle>*
+{
+    border:5px solid #ebebeb;
+    height: 137px;
+    width: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.outerbigcircle>div>img{
+    scale:56%;
+}
+
+.bluecircle
+{
+   
+    width: 325px;
+    height: 300px;
+    
+    border-radius: 100%;
+    background-color: #0404ca;
+    position: relative;
+    z-index: -1;
+    top: -505px;
+    left: 134px;
+
+}
+
+.yellowcircle
+{
+    width: 347px;
+    height: 322px;
+    border-radius: 100%;
+    background-color: var(--orange);
+    position: relative;
+    z-index: -1;
+    top: -590px;
+    left: 117px;
+
+
+}

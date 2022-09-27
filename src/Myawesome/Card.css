@@ -1,0 +1,22 @@
+.card
+{
+    height: 114%;
+    width: 22%;
+    position: absolute;
+   
+    border:5px solid var(--orange);
+    box-shadow: -1px 1px 18px 0px var(--orange);
+    
+    background:rgba(255,255,255,0.26);
+}
+
+.card>div>button
+{
+    background-color: white;
+    border: none;
+    color: blue;
+    size:2%;
+    scale: 130%;
+    text-decoration: underline;
+}
+ 

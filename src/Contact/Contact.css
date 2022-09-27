@@ -1,0 +1,32 @@
+.contact
+{
+    /* border:2px solid black; */
+    position: absolute;
+    width: 100%;
+    top: 5000px;
+    position: absolute;
+    width: 100%;
+    top: 5000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:500px;
+}
+
+
+.form-control
+{
+    border:5px solid var(--orange);
+    outline:none;
+ 
+    height:57px;
+    border-radius: 11px; 
+}
+
+.form-group
+{
+   
+   height: 69px;
+   width: 700px;
+   
+}

@@ -1,0 +1,43 @@
+.exceptional
+{
+   
+    position: absolute;
+    width: 100%;
+    top: 4000px;
+}
+
+.review
+{
+    height: 100vh;
+}
+
+.insideslider img{
+    border-radius: 60%;
+}
+
+.insideslider
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+      
+ 
+       
+        margin: 0px 380px;
+        height: 530px;
+        gap:2rem;
+        background:rgba(255,255,255,0.26);
+
+        border-radius: 5%;
+}
+
+.swiper-pagination
+{
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    scale: 129%;
+}

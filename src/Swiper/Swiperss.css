@@ -1,0 +1,18 @@
+.Swipercss
+{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 3182px;
+    width: 100%;
+}
+
+
+
+
+.Swipercss img
+{
+    width:482px;
+    border-radius: 12px;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+  
+}
